@@ -1,0 +1,20 @@
+[parity]
+chain = "spec.json"
+base_path = "/home/shicong/local-node-parity/parity0"
+[network]
+port = 30301
+[ui]
+port = 8180
+interface = "all"
+[websockets]
+port = 8180
+interface = "all"
+[rpc]
+port = 8545
+interface = "all"
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+[account]
+password = ["node1.pwds"]
+[mining]
+engine_signer = "0x9f217276141ed19bbfbbd1cacf52d500f0699800"
+reseal_on_txs = "none"
